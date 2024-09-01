@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+:root{
+    --default-font: "SUSE", sans-serif;
+}
+
 body{
     background: black;
     overflow-x: hidden;
     overflow-y: hidden;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--default-font);
     letter-spacing: .09rem;
     font-variant-caps: all-small-caps;
 }
