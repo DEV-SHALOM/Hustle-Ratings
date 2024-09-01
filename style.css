@@ -1,0 +1,126 @@
+body{
+    background: black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: .09rem;
+    font-variant-caps: all-small-caps;
+}
+
+.container{
+    display: flex;
+    height: 100dvh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding: 5%; */
+}
+
+.select-cont{
+    display: flex;
+    justify-content: space-evenly;
+    height: fit-content;
+    width: 100%;
+    color: white;
+    background: transparent;
+}
+
+input[type="radio"]{
+    appearance: none;
+    background-color: transparent;
+    border: .11rem solid white;
+    width: .7rem;
+    height: .7rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked{
+    background-color: rgb(0, 156, 0);
+}
+
+label{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+    width: fit-content;
+    height: fit-content;
+}
+
+.parameters-div{
+    color: white;
+    letter-spacing: .1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.status-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.status-label {
+    width: 100px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.status-range-div {
+    flex-grow: 1;
+    border-radius: 20px;
+    height: .8rem;
+    border: .09rem solid white;
+}
+
+.status-range {
+    border-radius: 20px;
+    width: 0%;
+    height: 100%;
+    transition: .8s all;
+}
+
+.time-range{
+    background-color: #2d2402;
+    filter: brightness(5);
+    box-shadow: inset 0rem 0rem 5px #0000009f,
+    0rem 0rem 10rem #a3ac009f;
+}
+
+.money-range{
+    background-color: #173600;
+    filter: brightness(5);
+    box-shadow: inset 0rem 0rem 5px #071202b3,
+    0rem 0rem 10rem #0c2401ba;
+}
+
+.difficulty-range {
+    background-color: #173302;
+    filter: brightness(5);
+    box-shadow: inset 0rem 0rem 5px #030a009f,
+    0rem 0rem 10rem #0c2403c2;
+}
+
+.scope-range {
+    background-color: #300101;
+    filter: brightness(5);
+    box-shadow: inset 0rem 0rem 5px #030a009f,
+    0rem 0rem 10rem #0c2403c2;
+}
+
+.warning{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    color: #300101;
+    filter: brightness(5);
+    font-size: 1rem;
+    font-weight: 800;
+    text-shadow: 0rem 0rem 1rem #380202;
+}
