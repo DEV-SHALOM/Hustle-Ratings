@@ -52,6 +52,8 @@ label{
     color: white;
     letter-spacing: .1rem;
     display: flex;
+    font-size: 1.2rem;
+    font-weight: lighter;
     flex-direction: column;
     width: 100%;
     padding: 0 20px;
